@@ -1,0 +1,12 @@
+n= int(input("enter a number "))
+if n<0:
+  print("enter a non negative number!")
+else:
+  if n==0 or n==1:
+    print("the factorial of {0} is 1".format(n))
+  else:
+    i=1
+    while (n>1):
+     i=i*n
+     n= n-1
+  print("the factorial of",n, "is",i)
